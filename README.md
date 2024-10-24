@@ -22,6 +22,7 @@ Here’s an overview of the key components:
  * **User-Friendly Visualization**: Displays the retrieved images in an intuitive and responsive format.
 
 ## Usage
+**Text based serach**
 ```python
 query = "...."
 dense_query = model.encode(query)[np.newaxis,...]
@@ -30,7 +31,7 @@ top_indices = np.argsort(dense_scores)[-10:][::-1]
 top_results = fashion.select(top_indices)
 display_result(top_results)
 ```
-
+</br>
 **Image based serach**
 ```python
 query_image = Image.open('path_to_image.jpg')
