@@ -32,6 +32,7 @@ top_results = fashion.select(top_indices)
 display_result(top_results)
 ```
 </br>
+
 **Image based serach**
 ```python
 query_image = Image.open('path_to_image.jpg')
