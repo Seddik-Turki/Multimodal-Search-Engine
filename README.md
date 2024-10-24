@@ -47,12 +47,14 @@ display_result(top_results)
 ### Example text search
 ```python
 query = "dark blue french connection jeans for men"
-
 ```
 **Result**
 ![text search](images/text.png)
 
+</br>
+
 ### Example image search
+**query**: </br>
 ![image](images/shoe.png)
 
 **Result**
